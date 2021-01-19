@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "last_seen": "2021-01-19T07:27:10.794539+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "jack",
+                    "id": "fe9d422ec8c4417696d15a75402a1777",
+                    "user_id": "bde017022e2443faa68fbb867855c269"
+                },
+                "context": {
+                    "id": "47877df18b6c43c99cd450b307039ac4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.jack",
+                "last_changed": "2021-01-19T03:05:53.074447+00:00",
+                "last_updated": "2021-01-19T03:05:55.046858+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

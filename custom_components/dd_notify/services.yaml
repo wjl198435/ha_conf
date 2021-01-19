@@ -1,0 +1,21 @@
+notify:
+  description: Send a notification to dingding app.
+  fields:
+    message:
+      description: Message body of the notification.
+      example: The garage door has been open for 10 minutes.
+    title:
+      description: Optional title for your notification.
+      example: "Your Garage Door Friend"
+    data:
+      description: Extended information for notification. Optional depending on the platform.
+      example: platform specific
+
+
+# message: Message that will be added as a comment to the file.
+# title: Title of the file.
+# data:
+#   file:
+#      url: "http://site.com/image.jpg"
+#      username: user
+#      password: pass

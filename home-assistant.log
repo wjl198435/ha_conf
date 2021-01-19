@@ -1,0 +1,14 @@
+2021-01-19 11:05:53 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for dd_notify which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2021-01-19 11:05:54 ERROR (MainThread) [metno] https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/1.9/ returned 203
+2021-01-19 11:05:54 ERROR (MainThread) [homeassistant.components.met.weather] Retrying in 19 minutes
+2021-01-19 11:05:55 WARNING (MainThread) [homeassistant.bootstrap] Python 3.6 support is deprecated and will be removed in the first release after December 15, 2019. Please upgrade Python to 3.7.0 or higher.
+2021-01-19 11:06:01 ERROR (MainThread) [custom_components.dd_notify.notify] res.status: 200
+2021-01-19 11:09:07 ERROR (MainThread) [custom_components.dd_notify.notify] res.status: 200
+2021-01-19 15:26:37 WARNING (zeroconf-ServiceBrowser__hap._tcp.local.) [zeroconf] Exception occurred:
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.6/site-packages/zeroconf/__init__.py", line 2531, in send
+    bytes_sent = s.sendto(packet, 0, (real_addr, port))
+OSError: [Errno 101] Network is unreachable
+2021-01-19 15:26:38 ERROR (MainThread) [homeassistant.components.updater] Could not contact Home Assistant Update to check for updates
+2021-01-19 15:26:38 ERROR (MainThread) [metno] https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/1.9/ returned Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Name or service not known]
+2021-01-19 15:26:38 ERROR (MainThread) [homeassistant.components.met.weather] Retrying in 15 minutes

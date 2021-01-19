@@ -1,0 +1,1 @@
+"""The dingding notify image upload qiniu server component."""
